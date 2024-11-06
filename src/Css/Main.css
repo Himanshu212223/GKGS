@@ -1,0 +1,28 @@
+.headline{
+    font-size: 2rem;
+}
+.main{
+    /* background-color: teal; */
+    height: calc(100vh - 8vh);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-paragraph{
+    margin: 10px 0px;
+}
+.options{
+    padding: 10px 50px;
+    color: #4ea8de;
+    border: 1px solid #64dfdf;
+    transition: all 0.4s ease-in-out;
+    margin: 5px 0px;
+    /* background-color: teal; */
+}
+.options:hover{
+    color: white;
+    background-color: #4ea8de;
+    transition: all 0.4s ease-in-out;
+}
