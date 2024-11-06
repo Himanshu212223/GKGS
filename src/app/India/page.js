@@ -26,7 +26,7 @@ const IndiaFacts = () => {
                 <p className="paragraph">Removal of <span className="red">Article 370</span> was decided by Parliament of India on August 2019, and the reorganisation took effect from <span className="red">31 October 2019</span>.</p>
 
                 
-                <li className="ordered-list">India has <span className="red">World's Largest Statue</span>, i.e., <span className="greenish">Statue of Unity of Sardar Vallabhbhai Patel</span>.</li>
+                <li className="ordered-list">India has <span className="red">World&apos;s Largest Statue</span>, i.e., <span className="greenish">Statue of Unity of Sardar Vallabhbhai Patel</span>.</li>
                 <p className="paragraph">Statue of Unity is situated in <span className="red">Gujarat</span> at the Bank of <span className="greenish">Narmada River</span>.</p>
                 <Image alt={"alt"}className="image" src="/About India/statueOfUnity.jpg" height={200} width={200} />
 
