@@ -1,0 +1,26 @@
+.para{
+    color: white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    background-color: #343a40;
+    padding: 0px 20px;
+}
+.icon{
+    font-size: x-large;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.icon:hover{
+    color: #f72585;
+    transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width:426px){
+    .footer{
+        font-size: small;
+    }
+}

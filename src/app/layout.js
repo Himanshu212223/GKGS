@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Script from "next/script";
 import NavBar from "./Component/NavBar";
+import Footer from "./Component/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
       >
         <NavBar />
         {children}
+        <Footer />
       </body>
 
       <Script src="https://kit.fontawesome.com/9fa326583e.js" crossOrigin="anonymous"></Script>
