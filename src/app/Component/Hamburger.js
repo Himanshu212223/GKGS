@@ -20,7 +20,7 @@ const Hamburger = () => {
                 <i className="fa-solid fa-circle-xmark hamburger-close" onClick={manageHamburger}></i>
 
                 <section className="hamburger-content">
-                    <Link className="hamburger-content-items" href={"/India"}>About India</Link>
+                    <Link className="hamburger-content-items" href={"/India"} onClick={manageHamburger} >About India</Link>
                     {/* <Link className="hamburger-content-items" href={"/"}>Page1</Link>
                     <Link className="hamburger-content-items" href={"/"}>Page1</Link> */}
                 </section>
